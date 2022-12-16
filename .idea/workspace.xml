@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="795dbac1-c40c-4eed-8e1a-67593af51ccd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/client/get_book_titles.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/get_book_titles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/inventory_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/inventory_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protos/b.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/b.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/b_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/b_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/b_pb2.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/service/b_pb2.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/b_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/b_pb2_grpc.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IydMIQtnKohPHVA9063pkVcg3h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/yusuwang/codes/17625/p3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="inventory_client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="p3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3" />
+      <option name="SDK_NAME" value="Python 3.9" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/inventory_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="795dbac1-c40c-4eed-8e1a-67593af51ccd" name="Changes" comment="" />
+      <created>1671157708166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671157708166</updated>
+      <workItem from="1671157709662" duration="1080000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/p3$inventory_client.coverage" NAME="inventory_client Coverage Results" MODIFIED="1671158145473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

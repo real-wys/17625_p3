@@ -1,32 +1,30 @@
 import unittest
-from unittest import mock
-from get_book_titles import get_titles
+from unittest.mock import MagicMock
+from unittest import TestCase, mock
+from get_book_titles import GetBook
 from inventory_client import RpcClient
 
-class Reply:
-    def __init__(self,book):
-        self.book = book
+mock_client = MagicMock()
 
-class Book:
-    def __init__(self, isbn, title):
-        self.isbn = isbn
-        self.title = title
+dic = {"1":"B1", "2":"B2","3":"B3"}
 
-# mocked return result
-resp1 = Reply(Exist=True, book = Book("101", "book1"))
-mockReplyNotExistRes = Reply(Book("-1", ""))
+def side_effect(*args):
+    res = []
+    isbn_list = args[1]
+    for i in range(len(isbn_list)):
+        res.append(dic[isbn_list[i]])
+    return res
 
-class Test_get_book_titles(unittest.TestCase):
-    def test_01(self):
-        client = RpcClient()
-        client.get_book = mock.Mock(return_value = resp1)
-        # get book titles based on mock result
-        book_title_list = get_titles(client, ["101", "2", "3"])
-        self.assertEqual(len(book_title_list), 3)
-        self.assertEqual(book_title_list[0], "book1")
-        self.assertEqual(book_title_list[1], "N/A")
-        self.assertEqual(book_title_list[2], "N/A")
-
+class Test_get_book_titles(TestCase):
+    def test_contains(self):
+        isbns = ["1","2"]
+        target = ["B1","B2"]
+        with mock.patch.object(GetBook, 'get_titles', side_effect=side_effect):
+            res = GetBook.get_titles(mock_client, isbns)
+            print("Return titles:")
+            print(res)
+            self.assertIsNotNone(res)
+            self.assertListEqual(res, target)
 
 if __name__ == "__main__":
     unittest.main()

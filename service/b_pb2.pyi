@@ -51,9 +51,9 @@ class CreateResponse(_message.Message):
 
 class GetBookRequest(_message.Message):
     __slots__ = ["ISBN"]
-    ISBN: int
+    ISBN: str
     ISBN_FIELD_NUMBER: _ClassVar[int]
-    def __init__(self, ISBN: _Optional[int] = ...) -> None: ...
+    def __init__(self, ISBN: _Optional[str] = ...) -> None: ...
 
 class GetBookResponse(_message.Message):
     __slots__ = ["Exist", "book"]

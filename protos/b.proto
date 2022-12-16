@@ -43,7 +43,7 @@ message CreateResponse {
 }
 
 message GetBookRequest {
-    required int32 ISBN = 1;
+    required string ISBN = 1;
 }
 
 message GetBookResponse {
