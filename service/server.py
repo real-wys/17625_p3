@@ -4,6 +4,9 @@ import grpc
 import b_pb2
 import b_pb2_grpc
 
+# The approach to storage is to use the Python dict
+# Key: the ISBN, which is the primary key
+# Value: the Book stored
 books = {}
 
 class Issuer(b_pb2_grpc.InventoryServiceServicer) :
